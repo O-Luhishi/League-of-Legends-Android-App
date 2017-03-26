@@ -14,13 +14,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/textView" />
 
     <ImageView
         android:layout_width="fill_parent"
         android:adjustViewBounds="true"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
+        android:id="@+id/leagueHeading1"
         android:src="@mipmap/leagueheading"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -30,12 +31,83 @@
         android:layout_width="fill_parent"
         android:adjustViewBounds="true"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
+        android:id="@+id/leagueSubHeading"
         android:src="@mipmap/leaguewelcome"
         android:maxHeight="200dp"
-        android:layout_marginTop="19dp"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/leagueHeading1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ViewFlipper
+        android:id="@+id/bckgrndViewFlipper1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/leagueSubHeading">
+        <ImageView
+            android:id="@+id/mp_transitionSlider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/tournamentone"
+            android:layout_marginTop="37dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+        <ImageView
+            android:id="@+id/mp_transitionSlider2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/leaguechampionship"
+            android:layout_marginTop="37dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+        <ImageView
+            android:id="@+id/mp_transitionSlider3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/leaguechampions"
+            android:layout_marginTop="37dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+        <ImageView
+            android:id="@+id/mp_transitionSlider4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/leagueshoutcasters"
+            android:layout_marginTop="37dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstPara"
+        android:text="@string/mp_first_para"
+        android:textColor="@color/White"
+        android:layout_alignBottom="@+id/second_Para"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="63dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_Para"
+        android:text="@string/mp_second_para"
+        android:textColor="@color/White"
+        android:layout_marginBottom="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>
