@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -10,7 +11,10 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.zonosnetworks.zonos_net.MainActivity">
+    <RelativeLayout
 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/ieHeading1"
@@ -31,48 +35,144 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <TextView
-        android:id="@+id/ei_first_para"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ei_first_para"
-        android:textColor="@color/White"
-        android:layout_below="@+id/leagueSubHeading"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="14dp" />
 
-    <TextView
-    android:id="@+id/ei_second_heading"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/ei_second_heading"
-    android:textColor="@color/White"
-    android:textSize="20dp"
-    android:layout_below="@+id/ei_first_para"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentStart="true"
-    android:layout_marginTop="14dp" />
+            <TextView
+                android:id="@+id/ei_first_para"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ei_first_para"
+                android:textColor="@color/White"
+                android:layout_below="@id/leagueSubHeading"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="14dp" />
 
-    <TextView
-        android:id="@+id/ei_second_para"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ei_second_para"
-        android:textColor="@color/White"
-        android:layout_below="@+id/ei_second_heading"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/teamImage2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/champs"
+                android:layout_marginTop="9dp"
+                android:layout_below="@+id/ei_first_para"
+                android:layout_alignRight="@+id/ei_second_heading"
+                android:layout_alignEnd="@+id/ei_second_heading" />
 
-    <TextView
-        android:id="@+id/ei_first_bullet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ei_first_bullet"
-        android:textColor="@color/White"
-        android:layout_below="@+id/ei_second_para"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/ei_second_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ei_second_heading"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:layout_below="@+id/teamImage2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="14dp" />
+
+            <TextView
+                android:id="@+id/ei_second_para"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ei_second_para"
+                android:textColor="@color/White"
+                android:layout_below="@+id/ei_second_heading"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/ei_first_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ei_first_bullet"
+                android:textColor="@color/bulletColour"
+                android:layout_below="@+id/ei_second_para"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/ei_second_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ei_second_bullet"
+                android:textColor="@color/bulletColour"
+                android:layout_below="@+id/ei_first_bullet"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:id="@+id/ei_third_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ei_third_bullet"
+                android:textColor="@color/bulletColour"
+                android:layout_below="@+id/ei_second_bullet"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:id="@+id/ei_fourth_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ei_fourth_bullet"
+                android:textColor="@color/bulletColour"
+                android:layout_below="@+id/ei_third_bullet"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:id="@+id/ei_fifth_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ei_fifth_bullt"
+                android:textColor="@color/bulletColour"
+                android:layout_below="@+id/ei_fourth_bullet"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:id="@+id/ei_third_para"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ei_fifth_bullet"
+                android:text="@string/ei_third_para"
+                android:textColor="@color/bulletColour"
+                android:layout_marginTop="12dp" />
+
+            <ImageView
+                android:id="@+id/teamImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/ei_third_para"
+                android:src="@mipmap/leagueteams"
+                />
+            <TextView
+                android:id="@+id/ei_third_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ei_third_heading"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:layout_alignBottom="@+id/teamImage"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="27dp" />
+
+            <TextView
+                android:id="@+id/ei_last_paragraph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ei_fourth_para"
+                android:textColor="@color/White"
+                android:layout_below="@id/ei_third_heading"/>
+
+
 
 
     </RelativeLayout>
+
+    </ScrollView>

@@ -1,16 +1,43 @@
 <resources>
+    <!--Random Things Strings-->
     <string name="app_name">Zonos-Net</string>
     <string name="slogan">The Future Of Our Tomorrow</string>
-    <string name="mp_first_para">Welcome to the League Of Legends 2017 Tournament! This year we will be having over 30+ teams
+    <string name="when_where_heading">When &amp; Where</string>
+
+    <!--Main Activity Strings-->
+    <string name="mp_first_para">Welcome to the League Of Legends 2017 Tournament! This year we will be having over 30 teams
     playing at out biggest event yet in the UK!</string>
     <string name="mp_second_para">Here in this app you\'ll be able to find all the big teams that are playing, when they are due to play
     and as well location and booking any last minute tickets!</string>
+
+    <!--Event Information Strings-->
     <string name="ei_heading">Highlights At Our Event</string>
-    <string name="ei_first_para">The 2016 League of Legends World Championship, more commonly called Worlds, is an international esports event takes
+    <string name="ei_first_para">The 2017 League of Legends World Championship, more commonly called Worlds, is an international esports event takes
         place over five weeks of competitive play with 16 top teams.</string>
-    <string name="ei_second_heading">Who is participating at Worlds 2016?</string>
+    <string name="ei_second_heading">Who is participating at Worlds 2017?</string>
     <string name="ei_second_para">Here’s the breakdown of the regions with teams competing at Worlds
-        2016 and how many spots each region gets:</string>
+        2017 and how many spots each region gets:</string>
     <string name="ei_first_bullet">\u2022 North America - NA League Championship Series (NA LCS) - 3 seeds</string>
     <string name="ei_second_bullet">\u2022 Europe - EU League Championship Series (EU LCS) - 3 seeds</string>
+    <string name="ei_third_bullet">\u2022 Korea - League of Legends Champions Korea (LCK) - 3 seeds</string>
+    <string name="ei_fourth_bullet">\u2022 China - League of Legends Pro League (LPL) - 3 seeds</string>
+    <string name="ei_fifth_bullt">\u2022 Wildcard regions determined at the International Wildcard Qualifier (IWCQ) - 2 seeds</string>
+    <string name="ei_third_para">Top teams from LCK, LPL, LMS, NA LCS, and EU LCS receive direct invitations to Worlds 2017,
+        while squads from Wildcard regions qualify via an International Wildcard Qualifier.</string>
+    <string name="ei_third_heading">What Are They Playing For?</string>
+    <string name="ei_fourth_para">In addition to international pride and glory, teams are competing
+        for the chance to be the 2016 World Champions, the Summoner\'s Cup, and a prize pool of over
+        $2,000,000 USD. Teams will earn prize money based on their finish in the event.</string>
+
+    <!--When Are Where Strings-->
+    <string name="ww_firstParagraph">Making sure the event location is in a convenient location which was accessible from all parts of the country and was well known
+    was a priority for us. Because of this we decided to place the event in the city of London. </string>
+    <string name="ww_second_paragraph">The worlds tournament will take place on the 1st Of July 2017 in the famous 02 Arena central London &amp; finish on the 4th Of July.</string>
+    <string name="ww_third_paragraph">The event will consist of 7 games per day taking a total of 9 hours each day.</string>
+    <string name="ww_fourth_paragraph">During the 4 days, inbetween games there will be various activities ranging from charity games to autographs from professiona players!</string>
+    <string name="ww_second_heading">Please Do Not Forget To Book Your Tickets</string>
+    <string name="ww_fifth_paragraph">To be able to book for this event and gurantee you are able to reserve some seats. You must book tickets, to do so you will only
+    have to visit the Contact Us page and decide by either emailing calling or sending an SMS with your details and the quantity of tickets you would like to purchase. From there we will contact you back at our expense.</string>
+    <string name="ww_sixth_paragraph">Make Sure To Book Now!</string>
+
 </resources>

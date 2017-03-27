@@ -22,7 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Event_Info"></activity>
+        <activity android:name=".Event_Info" />
+        <activity android:name=".WhenAndWhere"></activity>
     </application>
 
 </manifest>

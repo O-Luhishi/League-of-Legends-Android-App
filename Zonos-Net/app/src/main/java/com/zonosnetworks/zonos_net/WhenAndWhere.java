@@ -3,11 +3,11 @@ package com.zonosnetworks.zonos_net;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Event_Info extends MainActivity{
+public class WhenAndWhere extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event__info);
+        setContentView(R.layout.activity_when_and_where);
     }
 }
