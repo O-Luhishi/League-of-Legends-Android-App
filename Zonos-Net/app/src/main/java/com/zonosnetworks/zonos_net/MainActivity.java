@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
                 android.R.anim.fade_out);
         viewFlipper.setInAnimation(fade_in);
         viewFlipper.setOutAnimation(fade_out);
-//sets auto flipping
+
         viewFlipper.setAutoStart(true);
-        viewFlipper.setFlipInterval(5000);
+        viewFlipper.setFlipInterval(2500);
         viewFlipper.startFlipping();
     }
 }

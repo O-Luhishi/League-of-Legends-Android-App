@@ -13,23 +13,66 @@
 
 
     <ImageView
+        android:id="@+id/ieHeading1"
         android:layout_width="fill_parent"
         android:adjustViewBounds="true"
         android:layout_height="wrap_content"
-        android:id="@+id/ieHeading1"
         android:src="@mipmap/leagueheading"
+    />
+
+    <ImageView
+        android:id="@+id/leagueSubHeading"
+        android:layout_width="fill_parent"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/event_info_heading"
         android:maxHeight="200dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="496dp" />
+        android:layout_below="@+id/ieHeading1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
-        android:id="@+id/subheading"
-        android:layout_width="match_parent"
+        android:id="@+id/ei_first_para"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ei_heading"
+        android:text="@string/ei_first_para"
         android:textColor="@color/White"
-        android:layout_below="@+id/ieHeading1" />
+        android:layout_below="@+id/leagueSubHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+    android:id="@+id/ei_second_heading"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/ei_second_heading"
+    android:textColor="@color/White"
+    android:textSize="20dp"
+    android:layout_below="@+id/ei_first_para"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/ei_second_para"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ei_second_para"
+        android:textColor="@color/White"
+        android:layout_below="@+id/ei_second_heading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/ei_first_bullet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ei_first_bullet"
+        android:textColor="@color/White"
+        android:layout_below="@+id/ei_second_para"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
     </RelativeLayout>

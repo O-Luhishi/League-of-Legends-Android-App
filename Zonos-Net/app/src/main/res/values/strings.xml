@@ -6,4 +6,11 @@
     <string name="mp_second_para">Here in this app you\'ll be able to find all the big teams that are playing, when they are due to play
     and as well location and booking any last minute tickets!</string>
     <string name="ei_heading">Highlights At Our Event</string>
+    <string name="ei_first_para">The 2016 League of Legends World Championship, more commonly called Worlds, is an international esports event takes
+        place over five weeks of competitive play with 16 top teams.</string>
+    <string name="ei_second_heading">Who is participating at Worlds 2016?</string>
+    <string name="ei_second_para">Here’s the breakdown of the regions with teams competing at Worlds
+        2016 and how many spots each region gets:</string>
+    <string name="ei_first_bullet">\u2022 North America - NA League Championship Series (NA LCS) - 3 seeds</string>
+    <string name="ei_second_bullet">\u2022 Europe - EU League Championship Series (EU LCS) - 3 seeds</string>
 </resources>
