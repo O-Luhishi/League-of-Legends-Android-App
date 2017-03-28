@@ -14,4 +14,11 @@
         android:title="@string/when_where_heading"
         android:checkable="false"/>
 
+    <item android:id="@+id/contact_us"
+        android:title="Contact Us / Booking"
+        android:checkable="false"/>
+
+    <item android:id="@+id/google_maps"
+        android:title="Directions To Our Venu"
+        android:checkable="false"/>
 </menu>

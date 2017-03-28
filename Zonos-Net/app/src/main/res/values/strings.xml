@@ -9,6 +9,10 @@
     playing at out biggest event yet in the UK!</string>
     <string name="mp_second_para">Here in this app you\'ll be able to find all the big teams that are playing, when they are due to play
     and as well location and booking any last minute tickets!</string>
+    <string name="mp_sponsor">Both this app and event is running under League of Legends however fortunate enough to be partnered
+    up with Zonos Networks as its sponsor. They will be having charity games, quizzes and all sorts out of activities running
+    throughout the times there are no matches being played.</string>
+    <string name="mp_sponsor2">Make sure to check their official site at ITsecurity.Org where they offer cyber security expertise!</string>
 
     <!--Event Information Strings-->
     <string name="ei_heading">Highlights At Our Event</string>
@@ -34,10 +38,17 @@
     was a priority for us. Because of this we decided to place the event in the city of London. </string>
     <string name="ww_second_paragraph">The worlds tournament will take place on the 1st Of July 2017 in the famous 02 Arena central London &amp; finish on the 4th Of July.</string>
     <string name="ww_third_paragraph">The event will consist of 7 games per day taking a total of 9 hours each day.</string>
-    <string name="ww_fourth_paragraph">During the 4 days, inbetween games there will be various activities ranging from charity games to autographs from professiona players!</string>
+    <string name="ww_fourth_paragraph">During the 4 days, in-between games there will be various activities ranging from charity games to autographs from professiona players!</string>
     <string name="ww_second_heading">Please Do Not Forget To Book Your Tickets</string>
-    <string name="ww_fifth_paragraph">To be able to book for this event and gurantee you are able to reserve some seats. You must book tickets, to do so you will only
+    <string name="ww_fifth_paragraph">To be able to book for this event and guarantee you are able to reserve some seats. You must book tickets, to do so you will only
     have to visit the Contact Us page and decide by either emailing calling or sending an SMS with your details and the quantity of tickets you would like to purchase. From there we will contact you back at our expense.</string>
     <string name="ww_sixth_paragraph">Make Sure To Book Now!</string>
 
+
+    <!--Contact Use String-->
+    <string name="cu_first_paragraph">For this event it is essential for you to contact us if you are thinking about reserving any
+    tickets. This is a very popular event with only 10,000 tickets to be given out, and works only a first come first serve basis.</string>
+    <string name="cu_second_paragraph">To be able to guarantee reservation of ticket you must email us to let us know of your coming
+        alternatively if you have any more questions would like to speak to a member of staff you can call us too:</string>
+    <string name="title_activity_event_location">Map</string>
 </resources>

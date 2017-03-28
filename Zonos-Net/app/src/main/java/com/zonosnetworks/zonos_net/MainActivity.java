@@ -61,7 +61,17 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        if (id == R.id.contact_us) {
+            Intent contactUs = new Intent(this, ContactUs.class);
+            startActivity(contactUs);
+            return true;
+        }
 
+        if (id == R.id.google_maps) {
+            Intent location = new Intent(this, EventLocation.class);
+            startActivity(location);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
 }
