@@ -12,7 +12,8 @@ Android application designed in Android Studio for the E-sports "League of Legen
   
 ## Build
 
-Import it into Android Studio & plug in device which will be used to run it. Select run > Deployment Target > Your device
+Import it into Android Studio & plug in device which will be used to run it. Select:
+``` run > Deployment Target > Your device ```
   
 ## Testing
  ``` 
