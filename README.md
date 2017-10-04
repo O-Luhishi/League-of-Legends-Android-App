@@ -1,6 +1,6 @@
 # Android App Development Project
 
-Written by Oluhishi [Zonosnetworks.com]
+Written by Oluhishi [http://Zonosnetworks.com]
 
 ## Overview
 
